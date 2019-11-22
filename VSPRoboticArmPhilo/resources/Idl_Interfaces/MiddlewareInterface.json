@@ -1,0 +1,42 @@
+{
+    "ServiceName": "Middleware",
+    "Function": "Output",
+    "Functions": [{
+        "name": "invoke",
+        "parameters": [{
+            "position": 1,
+            "type": "String",
+            "name": "functionName"
+        }, {
+            "position": 2,
+            "type": "String",
+            "name": "parameterList"
+        }
+        , {
+            "position": 3,
+            "type": "IStub",
+            "name": "stub"
+        }
+
+        ],
+        "returnType": "void"
+    }, {
+        "name": "isConnected",
+        "parameters": [ {
+            "position": 1,
+            "type": "IStub",
+            "name": "stub"
+        }],
+        "returnType": "boolean"
+    }, {
+        "name": "register",
+        "parameters": [{
+            "position": 1,
+            "type": "IStub",
+            "name": "stub"
+        }],
+        "returnType": "void"
+    }
+    
+    ]
+}

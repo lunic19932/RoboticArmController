@@ -1,0 +1,22 @@
+{
+    "ServiceName": "Stub",
+    "Function": "Stub",
+    "Functions": [{
+        "name": "isConnected",
+        "parameters": [],
+        "returnType": "boolean"
+    },{
+        "name": "getTargetId",
+        "parameters": [],
+        "returnType": "int"
+    },{
+        "name": "notifyReturn",
+        "parameters": [{
+            "position": 1,
+            "type": "JSONObject",
+            "name": "json"
+        }],
+        "returnType": "void"
+    }
+    ]
+}

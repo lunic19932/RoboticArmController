@@ -1,0 +1,67 @@
+{
+    "ServiceName": "View",
+    "Function": "View",
+    "Functions": [{
+        "name": "setCurrentBackForth",
+        "parameters": [ {
+            "position": 1,
+            "type": "int",
+            "name": "id"
+        },{
+            "position": 2,
+            "type": "int",
+            "name": "percentage"
+        }],
+        "returnType": "void"
+    }, {
+        "name": "setCurrentGripper",
+        "parameters": [ {
+            "position": 1,
+            "type": "int",
+            "name": "id"
+        },{
+            "position": 2,
+            "type": "int",
+            "name": "percentage"
+        }],
+        "returnType": "void"
+    },{
+        "name": "setCurrentLeftRight",
+        "parameters": [ {
+            "position": 1,
+            "type": "int",
+            "name": "id"
+        },{
+            "position": 2,
+            "type": "int",
+            "name": "percentage"
+        }],
+        "returnType": "void"
+    }, {
+        "name": "setCurrentUpDown",
+        "parameters": [ {
+            "position": 1,
+            "type": "int",
+            "name": "id"
+        },{
+            "position": 2,
+            "type": "int",
+            "name": "percentage"
+        }],
+        "returnType": "void"
+    }, {
+        "name": "setCurrentIsHolding",
+        "parameters": [ {
+            "position": 1,
+            "type": "int",
+            "name": "id"
+        },{
+            "position": 2,
+            "type": "boolean",
+            "name": "isHolding"
+        }],
+        "returnType": "void"
+    }
+    
+    ]
+}

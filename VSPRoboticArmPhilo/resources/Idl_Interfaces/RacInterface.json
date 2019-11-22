@@ -1,0 +1,103 @@
+{
+    "ServiceName": "Rac",
+    "Function": "Rac",
+    "Functions": [{
+        "name": "setTargetBackForth",
+        "parameters": [{
+            "position": 1,
+            "type": "int",
+            "name": "percentage"
+        }],
+        "returnType": "void"
+    }, {
+        "name": "setTargetGripper",
+        "parameters": [ {
+            "position": 1,
+            "type": "int",
+            "name": "percentage"
+        }],
+        "returnType": "void"
+    },{
+        "name": "setTargetLeftRight",
+        "parameters": [ {
+            "position": 1,
+            "type": "int",
+            "name": "percentage"
+        }],
+        "returnType": "void"
+    }, {
+        "name": "setTargetUpDown",
+        "parameters": [{
+            "position": 1,
+            "type": "int",
+            "name": "percentage"
+        }],
+        "returnType": "void"
+    },{
+        "name": "getCurrentBackForth",
+        "parameters": [],
+        "returnType": "int"
+    }, {
+        "name": "getCurrentGripper",
+        "parameters": [],
+        "returnType": "int"
+    },{
+        "name": "getCurrentLeftRight",
+        "parameters": [],
+        "returnType": "int"
+    }, {
+        "name": "getCurrentUpDown",
+        "parameters": [],
+        "returnType": "int"
+    } , {
+        "name": "setLeftWorkplace2",
+        "parameters": [{
+            "position": 1,
+            "type": "boolean",
+            "name": "isUsed"
+        }],
+        "returnType": "void"
+    }, {
+        "name": "setLeftWorkplace1",
+        "parameters": [{
+            "position": 1,
+            "type": "boolean",
+            "name": "isUsed"
+        }],
+        "returnType": "void"
+    }, {
+        "name": "setRightWorkplace0",
+        "parameters": [{
+            "position": 1,
+            "type": "boolean",
+            "name": "isUsed"
+        }],
+        "returnType": "void"
+    }, {
+        "name": "setRightWorkplace1",
+        "parameters": [{
+            "position": 1,
+            "type": "boolean",
+            "name": "isUsed"
+        }],
+        "returnType": "void"
+    }, {
+        "name": "setMidWorkplace1",
+        "parameters": [{
+            "position": 1,
+            "type": "boolean",
+            "name": "isUsed"
+        }],
+        "returnType": "void"
+    }, {
+        "name": "setOwnWorkplace1",
+        "parameters": [{
+            "position": 1,
+            "type": "boolean",
+            "name": "isUsed"
+        }],
+        "returnType": "void"
+    }
+    
+    ]
+}

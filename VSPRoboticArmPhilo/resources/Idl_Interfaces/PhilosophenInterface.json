@@ -1,0 +1,48 @@
+{
+    "ServiceName": "Philo",
+    "Function": "",
+    "Functions": [{
+        "name": "changeState",
+        "parameters": [{
+        	"position": 1,
+            "type": "int",
+            "name": "id"
+        }, {
+        	"position": 2,
+            "type": "int",
+            "name": "state"
+        }
+        ],
+        "returnType": "void"
+    }, {
+        "name": "updateResource",
+        "parameters": [{
+        	"position": 1,
+            "type": "int",
+            "name": "sender"
+        }, {
+        	"position": 3,
+            "type": "int",
+            "name": "workplace"
+        }, {
+        	"position": 2,
+            "type": "int",
+            "name": "workplaceOwner"
+        }, {
+        	"position": 4,
+            "type": "boolean",
+            "name": "isUsed"
+        }
+        ],
+        "returnType": "void"
+    } ,{
+        "name": "isLeftResourceAvailable",
+        "parameters": [],
+        "returnType": "boolean"
+    }, {
+        "name": "isRightResourceAvailable",
+        "parameters": [],
+        "returnType": "boolean"
+    }   
+    ]
+}

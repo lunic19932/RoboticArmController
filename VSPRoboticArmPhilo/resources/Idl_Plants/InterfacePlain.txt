@@ -1,0 +1,5 @@
+package %s;
+%s	
+public interface I%s{
+%s
+}

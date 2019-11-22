@@ -1,0 +1,10 @@
+		synchronized(this){
+			while(%s){
+				try {
+					this.wait();
+				} catch (InterruptedException e) {
+					e.printStackTrace();
+				}
+			}
+			%s=false;
+		}
